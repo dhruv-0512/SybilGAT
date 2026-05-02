@@ -1,0 +1,30 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Data & Large Files (Don't push the 14k user dataset)
+data/
+*.csv
+*.zip
+*.json
+!sybilgat.json  # Example: keep config but ignore data
+
+# Environments
+.venv/
+venv/
+ENV/
+env/
+
+# Jupyter / Colab
+.ipynb_checkpoints
+.virtual_documents/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+Thumds.db
+
+# Project specific results (Optional: usually keep the .png files)
+# results/*.png
